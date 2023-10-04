@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'nette/mail' => array(
+            'pretty_version' => 'v2.4.6',
+            'version' => '2.4.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nette/mail',
+            'aliases' => array(),
+            'reference' => '431f1774034cc14ee6a795b6514fe6343f75a68e',
+            'dev_requirement' => false,
+        ),
+        'nette/utils' => array(
+            'pretty_version' => 'v2.5.7',
+            'version' => '2.5.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nette/utils',
+            'aliases' => array(),
+            'reference' => 'd272f87cd6491377231702b1ccd920b6e981b713',
+            'dev_requirement' => false,
+        ),
+    ),
+);
